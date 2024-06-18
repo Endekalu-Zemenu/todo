@@ -1,0 +1,28 @@
+.todo-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+  align-items: center;
+}
+
+.todo-items-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-items-text {
+  padding-left: 16px;
+  color: #404040;
+  font-size: 25px;
+}
+
+.todo-items-cross-icon {
+  cursor: pointer;
+  padding-right: 25px;
+}
+
+.completed {
+  color: rgb(3, 209, 3);
+  text-decoration: line-through;
+}
